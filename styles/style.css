@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+	font-family: 'Lato', sans-serif;
+}
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	position: fixed;
+	width: 100%;
+
+	background-color: #242424;
+}
+
+.logo {
+	margin-right: auto;
+}
+
+.logo img {
+	width: 180px;
+	height: 80px;
+}
+
+.nav-links > li {
+	display: inline;
+	margin-right: 20px;
+	list-style-type: none;
+}
+
+.nav-links > li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.products {
+	position: relative;
+}
+
+.products > span {
+	text-transform: uppercase;
+	color: #ffaf0f;
+	position: relative;
+	z-index: 2;
+}
+
+.products:hover .products-menu {
+	display: flex;
+	flex-direction: column;
+	background-color: #242424;
+
+	position: absolute;
+	top: 25px;
+	left: -4px;
+}
+
+.products-menu {
+	display: none;
+	z-index: 1;
+}
+
+.products-menu li {
+	list-style-type: none;
+	width: 310px;
+	padding: 0 25px 25px 25px;
+}
+
+.products-menu li:first-of-type {
+	margin-top: -19px;
+	border-bottom: 3px solid #ffaf0f;
+}
+
+.products-menu li:nth-of-type(2) {
+	margin-top: 30px;
+}
+
+.products-menu li:last-of-type {
+	border-bottom: none;
+}
+
+li a:hover {
+	color: #ffaf0f;
+	-moz-transition: all 0.3s ease 0.2s;
+
+}
+
+.background {
+	height: 200vh;
+	background-color: #9c0000;
+}
+
+.background {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.welcome-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	border: 3px solid black;
+	margin-bottom: auto;
+	margin-top: 150px;
+	padding: 20px 55px;
+
+	background: #fff;
+	height: 590px;
+}
+
+.sm-brewery-logo {
+	width: 85px;
+	height: 130px;
+
+	margin: 20px;
+}
+
+hr {
+	border: 2px solid black;
+	width: 360px;
+
+	margin: 13px 0;
+}
+
+.welcome-to {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+.wt {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.sm-brewery {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.legal-age {
+	font-weight: bold;
+	color: red;
+	font-size: 20px;
+}
+
+.yes-or-no {
+	margin-top: 50px;
+}
+
+
+.yes-or-no a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+
+	width: 380px;
+	padding: 13px 15px;
+	margin-bottom: 15px;
+	color: #fff;
+	background-color: #9c0000;
+}
+
+.privacy {
+	text-align: center;
+	line-height: 1.6;
+	font-size: 15px;
+}
+
+.ps {
+	color: red;
+	text-decoration: none;
+}
