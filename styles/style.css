@@ -134,17 +134,19 @@ hr {
 .welcome-to {
 	text-transform: uppercase;
 	text-align: center;
-	letter-spacing: 0.1em;
+	
 }
 
 .wt {
 	font-size: 18px;
 	font-weight: bold;
+
 }
 
 .sm-brewery {
 	font-size: 30px;
 	font-weight: 900;
+	letter-spacing: 0.1em;
 }
 
 .legal-age {
