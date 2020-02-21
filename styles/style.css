@@ -4,7 +4,6 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-
 }
 
 body {
@@ -91,7 +90,6 @@ body {
 li a:hover {
 	color: #ffaf0f;
 	-moz-transition: all 0.3s ease 0.2s;
-
 }
 
 .background {
@@ -137,14 +135,12 @@ hr {
 .welcome-to {
 	text-transform: uppercase;
 	text-align: center;
-	margin-left: 13px;
-	
+	margin-left: 13px;	
 }
 
 .wt {
 	font-size: 18px;
 	font-weight: bold;
-
 }
 
 .sm-brewery {
