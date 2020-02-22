@@ -42,6 +42,10 @@ body {
 	color: #fff;
 }
 
+.nav-links:last-of-type {
+	margin-right: 10px;
+}
+
 .products {
 	position: relative;
 }
